@@ -1,0 +1,136 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+   border: 0;
+   font-family: "verdana", sans-serif;
+}
+body {
+ background-color: #FFFBEA; 
+}
+.container{
+  margin: 0 auto;
+}
+.parrallax{
+  background: url(assets/opacityDown.PNG) no-repeat center;
+  background-size: cover;
+  background-attachment:fixed;
+  padding-top: 4em;
+  padding-bottom: 5em;
+}
+.generate{
+  display: flex;
+  padding-top: 1em;
+  margin-top: 1em;
+  margin: auto;
+  margin-left: 4em;
+}
+.pages{
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+  -webkit-text-stroke: 1px black;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.body{
+  margin-left: 4em;
+  margin-right: 4em;
+}
+#text{
+  paddint: 2em;
+  margin-right: 3em;
+  
+}
+/* STYLE IMAGES */
+#FDA{
+ padding: 2em; 
+ margin-right: 15em;
+}
+/*another way*/
+/*.col{
+  float: left;
+  width: 33.33%
+  padding: 5px;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+  marg
+in: auto;
+}
+*/
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.col{
+  flex-basis: 100%;
+  margin: 1%;
+}
+.addImg{
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* STYLE NAV BAR */
+.front{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar{
+  list-style-type: none;
+  background-color: #87C86C;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center
+}
+.navline{
+  display: inline;
+}
+li a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  padding: 1em;
+}
+li a:hover{
+  background-color: white;
+}
+#ground{
+  display: block;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#foot{
+  margin-top: 3em;
+}
+footer{
+  margin-left: 4em;
+}
+.learn{
+  border: 2px solid black;
+  background-color: white;
+  color: navy;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.flex-container{
+  
+}
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
